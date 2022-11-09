@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100%;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.main-container{
+    width:100%;
+    height:100%;
+}
+.banner-container{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.banner-container-video{
+   height:600px;
+   overflow: hidden;
+}
+.banner{
+    width:100%;
+    height:350px;
+}
+.banner-video{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+}
+.banner-text{
+    position: absolute;
+    top:40%;
+    left:0%;
+    width:100%;
+    text-align: center;
+}
+.heading-large{
+    font-size: 40px;
+}
+.banner-text p{
+  margin-top: 2%;
+  font-size: 20px;
+}
+.content-container{
+    position:relative;
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,46 @@
+img{
+    width:100%;
+    height:100%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.header-container{
+    width:100%;
+    height:100px;
+    overflow:hidden;
+    background-color: black;
+}
+.header-top{
+    background-color: black;
+    width:100%;
+    height:30%;
+    padding: 1px;
+    overflow:hidden;
+}
+.header-top ul{
+    margin-left:50%;
+    margin-top:5px;
+}
+.header-top ul li{
+    display: inline-block;
+    margin-left:3%;
+    font-size: 17px;
+}
+.header-main{
+    display: flex;
+}
+.logo{
+    width:20%;
+    height:60px;
+    margin-left:5%;
+}
+.navbar{
+    margin-left:15%;
+    margin-top:2%;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left:20px;
+}

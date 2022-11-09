@@ -1,0 +1,10 @@
+.content1{
+    border:1px solid black;
+    width:100%;
+}
+.box-group{
+    display:flex;
+}
+.box{
+    border:1px solid black;
+} 
