@@ -26,9 +26,10 @@ a{
     position:relative;
     width:100%;
     height:auto;
+    z-index: -1;
 }
 .banner-container-video{
-   height: 600px;
+   height: 650px;
    overflow: hidden;
 }
 .banner{
@@ -42,18 +43,24 @@ a{
 }
 .banner-text{
     color:white;
+    width:100%;
     position: absolute;
     top:50%;
-    left:0%;
-    width:100%;
+    left:0%; 
     text-align: center;
 }
-.heading-large{
-    font-size: 40px;
+.banner-text h1{
+    font-size: 60px;
 }
 .banner-text p{
-    margin-top: 2%;
     font-size: 20px;
+}
+.banner-container-video .banner-text h1{
+    font-size: 30px;
+}
+.banner-container-video .banner-text p{
+    font-size: 20px;
+    margin-top:2%;
 }
 .content-container{
     position:relative;

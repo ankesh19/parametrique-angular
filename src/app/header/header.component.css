@@ -10,7 +10,7 @@
 }
 .header-top{
     background: black;
-    opacity: 0.6;
+    opacity: 0.8;
     width:100%;
     height:30%;
     padding: 1px;
@@ -23,7 +23,7 @@
 .header-top ul li{
     display: inline-block;
     margin-left:3%;
-    font-size: 17px;
+    font-size: 16px;
 }
 .header-main{
     display: flex;
@@ -38,7 +38,7 @@
 .navbar{
     margin-left:15%;
     margin-top:2.5%;
-    font-size: 17px;
+    font-size: 16px;
 }
 .navbar ul li{
     display: inline-block;

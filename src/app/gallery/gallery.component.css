@@ -1,7 +1,28 @@
+.content{
+    padding:2%;
+}
 .heading h1{
-    color:blue;
+    color: #4d598c;
+    margin-left:7.5%;
+    font-size: 31px;
 }
 .box-group{
+    width:85%;
+    height:auto;
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:3%;
+    margin-left:7.5%;
+}
+.box{
+    width:215px;
+    height:150px;
+    margin-top: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.height-large{
+    height:280px;
 }

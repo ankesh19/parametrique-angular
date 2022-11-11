@@ -1,1 +1,45 @@
-
+.content{
+    width:100%;
+    height:auto;
+    padding:4%;
+    overflow: hidden;
+}
+.content h1{
+    color: #4d598c;
+    font-size: 30px;
+}
+.content h2{
+    color: #4d598c;
+}
+.content p{
+    color: black;
+    margin-top: 5%;
+    font-size: 17px;
+}
+ .heading{
+    margin-left:5%;
+}
+ .message{
+    width: 90%;
+    margin-left:5%;
+}
+.box-group{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    width:42%;
+    height:320px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.box h2{
+    margin-top:15%;
+}
+.color-change{
+    background: #a5a1a1;
+}
+.icon{
+    width:20%;
+}
