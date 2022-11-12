@@ -29,11 +29,11 @@ a{
     z-index: -1;
 }
 .banner-container-video{
-   height: 650px;
+   height: 100vh;
    overflow: hidden;
 }
 .banner{
-    height:400px;
+    height:60vh;
 }
 .banner-video{
     position: absolute;
@@ -50,7 +50,7 @@ a{
     text-align: center;
 }
 .banner-text h1{
-    font-size: 60px;
+    font-size: 65px;
 }
 .banner-text p{
     font-size: 20px;

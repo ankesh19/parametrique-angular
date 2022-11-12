@@ -4,24 +4,16 @@
     padding:4%;
     overflow: hidden;
 }
-.content h1{
+ .heading h1{
     color: #4d598c;
-    font-size: 30px;
-}
-.content h2{
-    color: #4d598c;
-}
-.content p{
-    color: black;
-    margin-top: 5%;
-    font-size: 17px;
-}
- .heading{
     margin-left:5%;
 }
- .message{
+ .message p{
+    color: black;
     width: 90%;
     margin-left:5%;
+    margin-top: 5%;
+    font-size: 17px;
 }
 .box-group{
     display:flex;
@@ -30,16 +22,28 @@
 }
 .box{
     width:42%;
-    height:320px;
+    height:50vh;
     margin-top: 2%;
     margin-left: 5%;
 }
+.box h1{
+    color: #4d598c;
+    margin-top:1%;
+    font-size: 30px;
+}
 .box h2{
+    color: #4d598c;
     margin-top:15%;
+}
+.box p{
+    color:black;
+    margin-top: 5%;
+    font-size: 17px;
 }
 .color-change{
     background: #a5a1a1;
 }
 .icon{
     width:20%;
+    height:15%;
 }
