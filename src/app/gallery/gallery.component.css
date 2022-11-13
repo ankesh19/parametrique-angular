@@ -1,5 +1,8 @@
 .content{
-    padding:2%;
+    width:100%;
+    height:auto;
+    padding: 3%;
+    overflow:hidden;
 }
 .heading h1{
     color: #4d598c;
@@ -14,12 +17,12 @@
     margin-left:7.5%;
 }
 .box{
-    width:215px;
-    height:150px;
+    width:32vh;
+    height:20vh;
     margin-top: 4px;
     overflow: hidden;
     cursor: pointer;
 }
 .height-large{
-    height:280px;
+    height:40vh;
 }

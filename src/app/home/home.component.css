@@ -5,6 +5,9 @@
 }
 .box{
     border:1px solid black;
+    width:45%;
+    height:40vh;
+    overflow: hidden;
 }
 .heading{
     color: #4d598c; 
