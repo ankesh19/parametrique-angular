@@ -1,0 +1,19 @@
+.content{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.box{
+    border:1px solid black;
+}
+.heading{
+    color: #4d598c; 
+    font-size: 20px;
+}
+.box h1{
+    color: #4d598c;
+}
+.box p{
+    color:black;
+    font-size: 17px;
+}

@@ -15,11 +15,6 @@
     margin-top: 5%;
     font-size: 17px;
 }
-.box-group{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .box{
     width:42%;
     height:50vh;

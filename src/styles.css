@@ -11,10 +11,8 @@ body,img,video,iframe{
 iframe{
     border:none;
 }
-a,h1,p,li{
-    color: white;
-}
 a{
+    color: white;
     text-decoration: none;
 }
 .main-container{
@@ -43,10 +41,10 @@ a{
 }
 .banner-text{
     color:white;
-    width:100%;
     position: absolute;
     top:50%;
     left:0%; 
+    width:100%;
     text-align: center;
 }
 .banner-text h1{
@@ -66,4 +64,9 @@ a{
     position:relative;
     width:100%;
     height:auto;
+}
+.box-group{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

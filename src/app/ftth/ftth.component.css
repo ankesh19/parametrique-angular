@@ -4,11 +4,6 @@
     padding: 4%;
     overflow:hidden;
 }
-.box-group{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .box{
     width:43%;
     height:60vh;

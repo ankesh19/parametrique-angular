@@ -9,11 +9,11 @@
     z-index: 1;
 }
 .header-top{
-    background: black;
+    background: linear-gradient(to right, black, #030336);
     opacity: 0.8;
     width:100%;
     height:30%;
-    padding: 1px;
+    padding: 2px;
     overflow:hidden;
 }
 .header-top ul{
