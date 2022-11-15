@@ -8,27 +8,29 @@
     width:100%;
     height:85%;
     margin-left: 5%;
-    padding: 2%;
+    padding: 4%;
 }
 .footer-main .box{
-    width:12%;
+    width:14%;
+    margin-left: 1%;
+    overflow: hidden;
+}
+.footer-main .support-box{
+    width:25%;
     margin-left: 2%;
 }
-.footer-main .box-group .box div{
-    margin-top: 15%;
-}
-.support{
-    width:50vh;
-}
-.footer-main div h1{
+.footer-main .heading{
     color: white;
-    font-size: 25px;
+    font-size: 12px;
 }
-.footer-main div ul li{
+.footer-main ul{
+    margin-top: 12%;
+}
+.footer-main li{
     color: white;
     list-style-type: none;
-    margin-top: 5%;
-    font-size: 17px;
+    margin-top: 8%;
+    font-size: 15px;
 }
 .footer-bottom{
     border-top:1px solid #07073f;

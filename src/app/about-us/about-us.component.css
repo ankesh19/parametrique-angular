@@ -4,22 +4,28 @@
     padding:4%;
     overflow: hidden;
 }
- .heading h1{
+ .content .heading{
     color: #4d598c;
     margin-left:5%;
 }
- .message p{
+ .content .message{
     color: black;
     width: 90%;
     margin-left:5%;
     margin-top: 5%;
     font-size: 17px;
 }
+.content-grey{
+    background: #a5a1a1;
+}
 .box{
     width:42%;
     height:50vh;
     margin-top: 2%;
     margin-left: 5%;
+}
+.content-grey .box{
+    height:40vh;
 }
 .box h1{
     color: #4d598c;
@@ -35,10 +41,7 @@
     margin-top: 5%;
     font-size: 17px;
 }
-.color-change{
-    background: #a5a1a1;
-}
-.icon{
+.box .icon{
     width:20%;
     height:15%;
 }

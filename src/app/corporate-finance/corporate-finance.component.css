@@ -1,0 +1,26 @@
+.content{
+    width:100%;
+    height:auto;
+    padding: 4%;
+    overflow: hidden;
+}
+.box{
+    width:42%;
+    height:50vh;
+    margin-top: 1%;
+    margin-left: 5%;
+} 
+.box p{
+    margin-top: 5%;
+    font-size: 17px;
+}
+.content .message{
+    background: #eeeeee;
+    width: 90%;
+    margin-left: 5%;
+    padding: 4%;
+}
+.message p{
+    margin-top: 2%;
+    font-size: 17px;
+}

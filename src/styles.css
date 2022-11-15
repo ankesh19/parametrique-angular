@@ -4,7 +4,10 @@
     padding:0px;
     box-sizing: border-box;
 }
-body,img,video,iframe{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img,video,iframe{
     width:100%;
     height:100%;
 }
@@ -27,8 +30,8 @@ a{
     z-index: -1;
 }
 .banner-container-video{
-   height: 100vh;
-   overflow: hidden;
+    height: 100vh;
+    overflow:hidden ;
 }
 .banner{
     height:60vh;
@@ -43,15 +46,15 @@ a{
     color:white;
     position: absolute;
     top:50%;
-    left:0%; 
     width:100%;
     text-align: center;
 }
-.banner-text h1{
+.banner-container .banner-text h1{
     font-size: 65px;
 }
-.banner-text p{
+ .banner-container .banner-text p{
     font-size: 20px;
+    margin-top: 1%;
 }
 .banner-container-video .banner-text h1{
     font-size: 30px;

@@ -8,10 +8,10 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FtthComponent } from './ftth/ftth.component';
-import { SolutionsComponent } from './solutions/solutions.component';
 import { ServicesComponent } from './services/services.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { CorporateFinanceComponent } from './corporate-finance/corporate-finance.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +21,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FooterComponent,
     AboutUsComponent,
     FtthComponent,
-    SolutionsComponent,
     ServicesComponent,
     GalleryComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    CorporateFinanceComponent
   ],
   imports: [
     BrowserModule,

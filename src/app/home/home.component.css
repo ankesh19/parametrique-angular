@@ -1,46 +1,141 @@
+.flex-wrap{
+    flex-direction: column;
+    overflow: hidden;
+ }
+ .flex-nowrap{
+     flex-wrap: nowrap;
+     overflow: hidden;
+}
 .content{
     width:100%;
     height:auto;
     overflow: hidden;
-    padding: 3%;
 }
-.nowrap-box-group{
-   flex-wrap: nowrap;
+.content .heading{
+    color: #4d598c;
+    font-size: 15px;
 }
-.box{
-    width:45%;
-    margin-left: 4%;
+.content .message{
     margin-top: 5%;
+    font-size: 17px;
 }
-.icon{
-    width:10%;
-    height:30%;
+.contact-content{
+    background: #4d598b;
+    padding: 5%;
+}
+.contact-content .box{
+    color: white;
+    width: 30%;
+    margin-left: 5%;
+    font-size: 15px;
     overflow: hidden;
 }
-.small-image{
-    width:50%;
-    height:50%;
-    overflow: hidden;
+.client-content{
+    padding: 5%;
 }
-.full-image{
-    width:100%;
+.client-content .box-group{
+    width: 100%;
+    height: 30vh;
+}
+.client-content .box{
+    border: 1px solid black;
+    width:15%;
+    margin-left: 1%;
+    margin-top: 4%;
+    overflow: hidden; 
+}
+.image-content{
+    padding: 1%;
+}
+.image-content .image{
+    width: 100%;
     height:70vh;
     overflow: hidden;
 }
-.medium-image .box{
-    width:40vh;
-    height:25vh;
-    margin-left: 1%;
-    overflow: hidden; 
+.solution-content{
+    padding:6%;
 }
-.heading{
-    color: #4d598c; 
-    font-size: 20px;
+.experties-content{
+    background: #c9c9c9;
+    padding: 4%;
 }
-.box h1{
+.experties-content .heading{
+    margin-left: 7%;
+}
+.experties-content .box-group{
+    margin-left: 5%;
+}
+.experties-content .box{
+    width:20%;
+    height: 40vh;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: center;
+}
+.experties-content .box p{
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.experties-content .box a{
     color: #4d598c;
 }
-.box p{
-    color:black;
-    font-size: 17px;
+.experties-content .image{
+    border: 5px solid white;
+    border-radius: 50%;
+    width:45%;
+    height:40%;
+    margin-left: 27%;
+    overflow: hidden;
+}
+.experties-content .description{
+    color: #4d598c;
+    margin-top:8%;
+    font-size: 15px;
+}
+.about-us-content{
+    padding: 5%;
+}
+.about-us-content .box{
+    width: 40%;
+    margin-left: 5%;
+}
+.about-us-content .btn button{
+    border: 1px solid blue;
+    border-radius: 10%;
+    background: none;
+    width:30%;
+    height:6vh;
+    margin-top: 7%;
+}
+.about-us-content .small-box-group{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.about-us-content .small-box-group .box{
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.about-us-content .icon{
+    width: 15%;
+    height: 25%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.about-us-content .small-box-group h1{
+    color: #4d598b;
+    font-size: 35px;
+}
+.about-us-content .description{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.about-us-content .border-lt{
+    border-left: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+}
+.about-us-content .border-rb{
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
 }
