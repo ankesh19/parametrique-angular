@@ -19,80 +19,6 @@
     margin-top: 5%;
     font-size: 17px;
 }
-.contact-content{
-    background: #4d598b;
-    padding: 5%;
-}
-.contact-content .box{
-    color: white;
-    width: 30%;
-    margin-left: 5%;
-    font-size: 15px;
-    overflow: hidden;
-}
-.client-content{
-    padding: 5%;
-}
-.client-content .box-group{
-    width: 100%;
-    height: 30vh;
-}
-.client-content .box{
-    border: 1px solid black;
-    width:15%;
-    margin-left: 1%;
-    margin-top: 4%;
-    overflow: hidden; 
-}
-.image-content{
-    padding: 1%;
-}
-.image-content .image{
-    width: 100%;
-    height:70vh;
-    overflow: hidden;
-}
-.solution-content{
-    padding:6%;
-}
-.experties-content{
-    background: #c9c9c9;
-    padding: 4%;
-}
-.experties-content .heading{
-    margin-left: 7%;
-}
-.experties-content .box-group{
-    margin-left: 5%;
-}
-.experties-content .box{
-    width:20%;
-    height: 40vh;
-    margin-left: 3%;
-    margin-top: 3%;
-    text-align: center;
-}
-.experties-content .box p{
-    color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.experties-content .box a{
-    color: #4d598c;
-}
-.experties-content .image{
-    border: 5px solid white;
-    border-radius: 50%;
-    width:45%;
-    height:40%;
-    margin-left: 27%;
-    overflow: hidden;
-}
-.experties-content .description{
-    color: #4d598c;
-    margin-top:8%;
-    font-size: 15px;
-}
 .about-us-content{
     padding: 5%;
 }
@@ -138,4 +64,78 @@
 .about-us-content .border-rb{
     border-right: 1px solid #dadada;
     border-bottom: 1px solid #dadada;
+}
+.experties-content{
+    background: #c9c9c9;
+    padding: 4%;
+}
+.experties-content .heading{
+    margin-left: 7%;
+}
+.experties-content .box-group{
+    margin-left: 5%;
+}
+.experties-content .box{
+    width:20%;
+    height: 40vh;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: center;
+}
+.experties-content .box p{
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.experties-content .box a{
+    color: #4d598c;
+}
+.experties-content .image{
+    border: 5px solid white;
+    border-radius: 50%;
+    width:45%;
+    height:40%;
+    margin-left: 27%;
+    overflow: hidden;
+}
+.experties-content .description{
+    color: #4d598c;
+    margin-top:8%;
+    font-size: 15px;
+}
+.solution-content{
+    padding:7%;
+}
+.image-content{
+    padding: 1%;
+}
+.image-content .image{
+    width: 100%;
+    height:70vh;
+    overflow: hidden;
+}
+.client-content{
+    padding: 5%;
+}
+.client-content .box-group{
+    width: 100%;
+    height: 30vh;
+}
+.client-content .box{
+    border: 1px solid black;
+    width:15%;
+    margin-left: 1%;
+    margin-top: 4%;
+    overflow: hidden; 
+}
+.contact-content{
+    background: #4d598b;
+    padding: 5%;
+}
+.contact-content .box{
+    color: white;
+    width: 30%;
+    margin-left: 5%;
+    font-size: 15px;
+    overflow: hidden;
 }

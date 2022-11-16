@@ -4,19 +4,19 @@
     overflow:hidden;
 }
 .box-group{
-    padding:5%;
+    padding:3%;
+}
+.box{
+    width:42%;
+    height:50vh;
+    margin-top: 3%;
+    margin-left: 8%;
+    overflow: hidden;
 }
 .box-group-grey{
     background: #eeeeee;
     width:90%;
     margin-left:5%;
-}
-.box{
-    width:45%;
-    height:50vh;
-    margin-top: 5%;
-    margin-left: 3%;
-    overflow: hidden;
 }
 .box-group-grey .box{
     width:40%;
@@ -29,12 +29,20 @@
     margin-bottom: 5%;
     font-size: 16px;
 }
+.cctv-image-box{
+    width:25%;
+    height:30vh;
+}
+.height-large{
+    margin-left: 5%;
+    height: 65vh;
+}
 .box p{
     margin-top: 7%;
-    font-size: 17px;
+    font-size: 15px;
 }
 .box li{
     margin-top: 2%;
     margin-left: 5%;
-    font-size: 17px;
+    font-size: 15px;
 }

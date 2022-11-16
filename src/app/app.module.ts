@@ -11,7 +11,11 @@ import { FtthComponent } from './ftth/ftth.component';
 import { ServicesComponent } from './services/services.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { CorporateFinanceComponent } from './corporate-finance/corporate-finance.component';
+import { CorporateRestructuringComponent } from './expertise/corporate-restructuring/corporate-restructuring.component';
+import { LitigationConsultingComponent } from './expertise/litigation-consulting/litigation-consulting.component';
+import { StrategicConsultingComponent } from './expertise/strategic-consulting/strategic-consulting.component';
+import { CorporateFinanceComponent } from './expertise/corporate-finance/corporate-finance.component';
+import { EconomicConsultingComponent } from './expertise/economic-consulting/economic-consulting.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { CorporateFinanceComponent } from './corporate-finance/corporate-finance
     ServicesComponent,
     GalleryComponent,
     ContactUsComponent,
-    CorporateFinanceComponent
+    CorporateRestructuringComponent,
+    LitigationConsultingComponent,
+    StrategicConsultingComponent,
+    CorporateFinanceComponent,
+    EconomicConsultingComponent,
   ],
   imports: [
     BrowserModule,
