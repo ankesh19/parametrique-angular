@@ -23,7 +23,6 @@
     height:50vh;
     margin-left: 4%;
     padding:1%;
-    overflow: hidden;
 }
 .box h1{
     color: #4d598c;
@@ -65,8 +64,8 @@
     height:15%;
 }
 .position-center-box{
-    margin-top:8%;
+    margin-top:10%;
 }
 .medium-height{
-    height: 55vh;
+    height: 60vh;
 }
