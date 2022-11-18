@@ -23,3 +23,12 @@
 .message p{
     margin-top: 2%;
 }
+/*responsive design*/
+@media (max-width: 600px) {
+    
+    .box{
+        width: 90%;
+        height: auto;
+        margin-top: 10%;
+    }
+}

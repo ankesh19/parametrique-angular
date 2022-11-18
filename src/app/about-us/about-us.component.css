@@ -45,3 +45,13 @@
     width:20%;
     height:15%;
 }
+
+/*responsive design*/
+@media (max-width: 600px) {
+    
+    .box{
+        width: 80%;
+        height: 40vh;
+        margin-top: 5%;
+    }
+}

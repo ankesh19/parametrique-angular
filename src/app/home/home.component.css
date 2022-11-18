@@ -139,3 +139,37 @@
     font-size: 15px;
     overflow: hidden;
 }
+
+/*responsive design*/
+@media (max-width: 600px) {
+    
+    .about-us-content .box{
+        width: 90%;
+    }
+    .about-us-content .small-box-group{
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    .experties-content .box-group{
+        margin-top: 10%;
+    }
+    .experties-content .box{
+        width:80%;
+        margin-left: 5%;
+    }
+    .image-content .image{
+        height:40vh;
+    }
+    .client-content .box{
+        width:50%;
+        margin-top: 10%;
+    }
+    .contact-content .box-group{
+        flex-direction: column;
+    }
+    .contact-content .box{
+        width: 90%;
+        margin-top: 10%;
+        text-align: center;
+    }
+}

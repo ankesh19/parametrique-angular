@@ -4,8 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './layout/header/header.component';
+import { FooterComponent } from './layout/footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FtthComponent } from './ftth/ftth.component';
 import { ServicesComponent } from './services/services.component';
@@ -16,6 +16,7 @@ import { LitigationConsultingComponent } from './expertise/litigation-consulting
 import { StrategicConsultingComponent } from './expertise/strategic-consulting/strategic-consulting.component';
 import { CorporateFinanceComponent } from './expertise/corporate-finance/corporate-finance.component';
 import { EconomicConsultingComponent } from './expertise/economic-consulting/economic-consulting.component';
+import { MenuComponent } from './layout/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { EconomicConsultingComponent } from './expertise/economic-consulting/eco
     StrategicConsultingComponent,
     CorporateFinanceComponent,
     EconomicConsultingComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

@@ -46,3 +46,14 @@
     margin-left: 5%;
     font-size: 15px;
 }
+/*responsive design*/
+@media (max-width: 600px) {
+    
+    .box{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .box-group-grey .box{
+        width:90%;
+    }
+}

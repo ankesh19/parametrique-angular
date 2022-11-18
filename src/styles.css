@@ -48,6 +48,7 @@ a{
     top:50%;
     width:100%;
     text-align: center;
+    overflow: hidden;
 }
 .banner-container .banner-text h1{
     font-size: 65px;
@@ -72,4 +73,37 @@ a{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+/*responsive design */
+@media (max-width: 1000px) {
+
+    .banner{
+        height: 50vh;
+    }
+    .banner-container-video{
+        height: 60vh;
+    }
+}
+@media (max-width: 600px) {
+
+    .banner{
+        height: 40vh;
+    }
+    .banner-container-video{
+        height: 40vh;
+    }
+    .banner-video{
+        width: 100%;
+    }
+    .banner-container-video .banner-text{
+        display: none;
+    }
+    .banner-container .banner-text h1{
+        font-size: 35px;
+    }
+    .banner-container .banner-text {
+        width:90%;
+        margin-left: 5%;
+    }
 }
