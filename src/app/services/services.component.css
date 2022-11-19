@@ -34,8 +34,8 @@
     height:30vh;
 }
 .height-large{
+    height: auto;
     margin-left: 5%;
-    height: 65vh;
 }
 .box p{
     margin-top: 7%;
@@ -51,7 +51,7 @@
     
     .box{
         width: 90%;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     .box-group-grey .box{
         width:90%;

@@ -56,6 +56,7 @@
 .medium-box{
    margin-top: 5%;
    padding: 0px;
+   height: auto;
 }
 .medium-box h2,.medium-box p{
     color: white;
@@ -64,10 +65,13 @@
     height:15%;
 }
 .position-center-box{
-    margin-top:10%;
+    margin-top:5%;
 }
 .medium-height{
-    height: 60vh;
+    height: 50vh;
+}
+.height-auto{
+    height: auto;
 }
 
 /*responsive design*/
@@ -75,7 +79,8 @@
     
     .box{
         width: 100%;
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-left: 1%;
     }
     .small-box-group .box{
         width:40%;
