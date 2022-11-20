@@ -25,8 +25,14 @@
             </ul>    
         </div> 
         <div class="menu-btn">
-            <a onclick=""><i class="menu-font"></i></a>
+            <a (click)="menucont.style.display='block'"><i class="menu-font"></i></a>
         </div>         
-    </div>   
+    </div> 
+    <div #menucont class="menu-container">
+        <div class="close-btn">
+            <a (click)="menucont.style.display='none'"><i class="close-icon"></i></a>
+        </div>  
+    <app-menu></app-menu>
+    </div>
 </div>
 <!--header close-->

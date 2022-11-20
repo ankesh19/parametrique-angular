@@ -55,6 +55,23 @@
    content: "\002630";
    font-size: 40px;
 }
+.menu-container{
+    background: linear-gradient(to right, black, #030336);
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.close-icon::before{
+    content: "\2716";
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 40px;
+}
 
 /* responsive design*/
 @media (max-width: 1000px) {

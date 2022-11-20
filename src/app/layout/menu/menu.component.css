@@ -1,0 +1,19 @@
+.menu{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 20px;
+}
+.menu li{
+    margin-top:5%;
+}
+
+/*responsive design*/
+@media (max-width: 600px) {
+
+    .menu{
+       margin-top: 25%;
+    }
+    .menu li{
+        margin-top: 10%;
+    }
+}

@@ -10,6 +10,7 @@ import { StrategicConsultingComponent } from './expertise/strategic-consulting/s
 import { FtthComponent } from './ftth/ftth.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
+import { MenuComponent } from './layout/menu/menu.component';
 import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'services', component: ServicesComponent},
   {path: 'gallery', component: GalleryComponent},
   {path: 'contact-us', component: ContactUsComponent},
+  {path: 'menu', component: MenuComponent}
 ];
 
 @NgModule({
