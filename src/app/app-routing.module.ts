@@ -10,7 +10,6 @@ import { StrategicConsultingComponent } from './expertise/strategic-consulting/s
 import { FtthComponent } from './ftth/ftth.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
-import { MenuComponent } from './layout/menu/menu.component';
 import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
@@ -18,14 +17,13 @@ const routes: Routes = [
   {path: 'about-us', component: AboutUsComponent},
   {path: 'ftth', component: FtthComponent},
   {path: 'expertise/corporate-finance', component: CorporateFinanceComponent},
-  {path:'expertise/corporate-restructuring', component: CorporateRestructuringComponent},
-  {path:'expertise/economic-consulting', component: EconomicConsultingComponent},
-  {path:'expertise/litigation-consulting', component: LitigationConsultingComponent},
-  {path:'expertise/strategic-consulting', component: StrategicConsultingComponent},
+  {path: 'expertise/corporate-restructuring', component: CorporateRestructuringComponent},
+  {path: 'expertise/economic-consulting', component: EconomicConsultingComponent},
+  {path: 'expertise/litigation-consulting', component: LitigationConsultingComponent},
+  {path: 'expertise/strategic-consulting', component: StrategicConsultingComponent},
   {path: 'services', component: ServicesComponent},
   {path: 'gallery', component: GalleryComponent},
   {path: 'contact-us', component: ContactUsComponent},
-  {path: 'menu', component: MenuComponent}
 ];
 
 @NgModule({

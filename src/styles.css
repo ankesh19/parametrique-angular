@@ -49,6 +49,11 @@ a{
     width:100%;
     text-align: center;
     overflow: hidden;
+    animation: textslide 3s normal;
+}
+@keyframes textslide {
+    from{ top: 0%; }
+    to{ top:50%; } 
 }
 .banner-container .banner-text h1{
     font-size: 65px;
