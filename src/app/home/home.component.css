@@ -121,6 +121,7 @@
 .client-content .box-group{
     width: 100%;
     height: 30vh;
+    overflow-x: scroll;
 }
 .client-content .box{
     border: 1px solid black;
