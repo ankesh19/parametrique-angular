@@ -121,7 +121,7 @@
 .client-content .box-group{
     width: 100%;
     height: 30vh;
-    overflow-x: scroll;
+    overflow:hidden
 }
 .client-content .box{
     border: 1px solid black;
@@ -129,6 +129,11 @@
     margin-left: 1%;
     margin-top: 4%;
     overflow: hidden; 
+    animation: wrapper 4s alternate 2s infinite;
+}
+@keyframes wrapper {
+    from{ transform: translateX(20%);}
+    to{ transform: translateX(-450%);}
 }
 .contact-content{
     background: #4d598b;
