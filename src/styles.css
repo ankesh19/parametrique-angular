@@ -45,14 +45,14 @@ a{
 .banner-text{
     color:white;
     position: absolute;
-    top:50%;
+    top:0%;
     width:100%;
     text-align: center;
     overflow: hidden;
-    animation: textslide 3s normal;
+    animation: textslide 3s forwards;
 }
 @keyframes textslide {
-    from{ top: 0%; }
+    from{ top:0%; }
     to{ top:50%; } 
 }
 .banner-container .banner-text h1{

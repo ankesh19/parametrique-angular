@@ -121,19 +121,22 @@
 .client-content .box-group{
     width: 100%;
     height: 30vh;
-    overflow:hidden
+    overflow:hidden;
 }
 .client-content .box{
     border: 1px solid black;
     width:15%;
     margin-left: 1%;
     margin-top: 4%;
-    overflow: hidden; 
-    animation: wrapper 4s alternate 2s infinite;
+    overflow: hidden;
+    animation: wrapper 10s linear infinite; 
 }
 @keyframes wrapper {
-    from{ transform: translateX(20%);}
-    to{ transform: translateX(-450%);}
+    from{ transform: translateX(90vw);}
+    to{ transform: translateX(-150vw);}
+}
+.client-content .box-group:hover .box{
+    animation-play-state: paused;
 }
 .contact-content{
     background: #4d598b;
