@@ -145,8 +145,9 @@
 .contact-content .box{
     color: white;
     width: 30%;
-    margin-left: 5%;
+    margin-left: 2%;
     font-size: 15px;
+    text-align: center;
     overflow: hidden;
 }
 

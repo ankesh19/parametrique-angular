@@ -38,15 +38,15 @@
     margin-top: 10px;
 }
 .navbar{
-    width:60%;
-    margin-left:10%;
+    width:65%;
+    margin-left:5%;
     margin-top:3%;
     font-size: 15px;
     text-align: center;
 }
 .navbar ul li{
     display: inline-block;
-    margin-left:2%;
+    margin-left:3%;
 }
 .menu-btn{
     display: none;
