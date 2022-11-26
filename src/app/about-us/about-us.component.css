@@ -13,7 +13,7 @@
     width: 90%;
     margin-left:5%;
     margin-top: 5%;
-    font-size: 17px;
+    font-size: 16px;
 }
 .content-grey{
     background: #a5a1a1;
@@ -25,7 +25,8 @@
     margin-left: 5%;
 }
 .content-grey .box{
-    height:40vh;
+    height:auto;
+    padding: 1%;
 }
 .box h1{
     color: #4d598c;
@@ -39,11 +40,11 @@
 .box p{
     color:black;
     margin-top: 5%;
-    font-size: 17px;
+    font-size: 16px;
 }
 .box .icon{
-    width:20%;
-    height:15%;
+    width:15%;
+    height:20%;
 }
 
 /*responsive design*/

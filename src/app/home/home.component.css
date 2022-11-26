@@ -28,12 +28,16 @@
 }
 .about-us-content .btn button{
     border: 1px solid blue;
-    border-radius: 10%;
+    border-radius: 5px;
     background: none;
     width:30%;
     height:6vh;
     margin-top: 7%;
     cursor: pointer;
+}
+.about-us-content .btn button:hover{
+    background: #4d598c;
+    color: white;
 }
 .about-us-content .small-box-group{
     margin-left: 15%;
@@ -129,6 +133,7 @@
     margin-left: 1%;
     margin-top: 4%;
     overflow: hidden;
+    cursor: pointer;
     animation: wrapper 10s linear infinite; 
 }
 @keyframes wrapper {

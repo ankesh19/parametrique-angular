@@ -13,7 +13,7 @@
     color: #4d598c;
     margin-left: 4%;
     margin-top: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 .box-group{
     padding:4%;
@@ -33,7 +33,7 @@
 }
 .box p{
     margin-top: 7%;
-    font-size: 17px;
+    font-size: 16px;
 }
 .box-grey{
     background: #eeeeee;
@@ -45,13 +45,13 @@
 }
 .small-box-group .box{
     width:12%;
-    height:25%;
+    height:auto;
     padding: 0%;
     margin-bottom: 1%;
 }
 .small-box-group .icon{
     width:50%;
-    height:20%;
+    height:10vh;
 }
 .medium-box{
    margin-top: 5%;
@@ -65,10 +65,10 @@
     height:15%;
 }
 .position-center-box{
-    margin-top:5%;
+    margin-top:6%;
 }
 .medium-height{
-    height: 50vh;
+    height: 60vh;
 }
 .height-auto{
     height: auto;

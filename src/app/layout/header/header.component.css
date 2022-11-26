@@ -39,14 +39,18 @@
 }
 .navbar{
     width:65%;
-    margin-left:5%;
-    margin-top:3%;
+    margin-left:6%;
+    margin-top:2%;
     font-size: 15px;
     text-align: center;
 }
 .navbar ul li{
     display: inline-block;
-    margin-left:3%;
+    margin-left:1%;
+    padding: 1%;
+}
+.navbar ul li:hover{
+    border-bottom:2px solid white;
 }
 .menu-btn{
     display: none;
