@@ -33,14 +33,14 @@ a{
     height: 100vh;
     overflow:hidden ;
 }
-.banner{
-    height:60vh;
-}
 .banner-video{
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
+}
+.banner-image{
+    height:60vh;
 }
 .banner-text{
     color:white;
@@ -55,17 +55,17 @@ a{
     from{ top:0%; }
     to{ top:50%; } 
 }
-.banner-container .banner-text h1{
+.banner-container h1{
     font-size: 65px;
 }
- .banner-container .banner-text p{
+.banner-container p{
     font-size: 20px;
     margin-top: 1%;
 }
-.banner-container-video .banner-text h1{
-    font-size: 30px;
+.banner-container-video h1{
+    font-size: 35px;
 }
-.banner-container-video .banner-text p{
+.banner-container-video p{
     font-size: 20px;
     margin-top:2%;
 }
@@ -83,7 +83,7 @@ a{
 /*responsive design */
 @media (max-width: 1000px) {
 
-    .banner{
+    .banner-image{
         height: 50vh;
     }
     .banner-container-video{
@@ -92,7 +92,7 @@ a{
 }
 @media (max-width: 600px) {
 
-    .banner{
+    .banner-image{
         height: 40vh;
     }
     .banner-container-video{
