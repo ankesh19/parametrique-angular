@@ -22,7 +22,7 @@
 }
 .header-top ul li{
     display: inline-block;
-    margin-left:4%;
+    margin-left:3%;
     font-size: 15px;
 }
 .header-main{
@@ -39,7 +39,7 @@
 }
 .navbar{
     width:65%;
-    margin-left:6%;
+    margin-left:7%;
     margin-top:2%;
     font-size: 15px;
     text-align: center;

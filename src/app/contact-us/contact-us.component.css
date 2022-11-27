@@ -41,6 +41,9 @@
     width: 50%;
     height: 5vh;
 }
+.form-container textarea{
+    width: 50%;
+}
 .form-container input[type=submit] {
     border: none;
     background: #32438d;
