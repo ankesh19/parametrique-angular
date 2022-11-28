@@ -45,12 +45,12 @@ a{
 .banner-text{
     color:white;
     position: absolute;
-    top:0%;
+    top:50%;
     width:100%;
     font-style: italic;
     text-align: center;
     overflow: hidden;
-    animation: textslide 3s forwards;
+    animation: textslide 3s normal;
 }
 @keyframes textslide {
     from{ top:0%; }
