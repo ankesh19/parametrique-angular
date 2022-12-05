@@ -8,51 +8,33 @@ import { Component, OnInit} from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  year=0;
-  emp=0;
-  client=0;
-  project=0;
-
   constructor() { }
 
   ngOnInit(): void {
-   this.animateyear();
-   this.animateemp();
-   this.animateclient();
-   this.animateproject();
+   this.countanimation();
   }
 
-  animateyear(){
-    setInterval(()=>{
-      if(this.year<5)
-        {
-        this.year=this.year+1;
-        } 
-    },500);
-  }
-  animateemp(){
-    setInterval(()=>{
-      if(this.emp<300)
-        {
-        this.emp=this.emp+1;
-        } 
-    },0);
-  }
-  animateclient(){
-    setInterval(()=>{
-      if(this.client<60)
-        {
-        this.client=this.client+1;
-        } 
-    },30);
-  }
-  animateproject(){
-    setInterval(()=>{
-      if(this.project<100)
-        {
-        this.project=this.project+1;
-        } 
-    },20);
+   countanimation(){
+    let valueDisplays = document.querySelectorAll("#num");
+    let interval = 4000;
+
+    valueDisplays.forEach((valueDisplay:any) => {
+    let startValue = 0;
+    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+    let duration = Math.floor(interval / endValue);
+    let counter = setInterval(function () {
+    startValue += 1;
+    if(endValue==60){
+      valueDisplay.textContent= startValue+",000+";
+     }else{
+     valueDisplay.textContent= startValue+"+";
+     }
+    if (startValue == endValue) {
+      clearInterval(counter);
+      }
+    }, duration);
+      });
+
   }
 
 }
