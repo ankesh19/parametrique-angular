@@ -50,7 +50,7 @@ a{
     font-style: italic;
     text-align: center;
     overflow: hidden;
-    animation: textslide 3s normal;
+    animation: textslide 3s forwards;
 }
 @keyframes textslide {
     from{ top:0%; }
