@@ -134,7 +134,7 @@
     margin-top: 4%;
     overflow: hidden;
     cursor: pointer;
-    animation: wrapper 10s linear infinite; 
+    animation: wrapper 15s linear infinite; 
 }
 @keyframes wrapper {
     from{ transform: translateX(90vw);}
