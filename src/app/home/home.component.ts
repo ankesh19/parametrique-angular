@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-   this.countanimation();
+    this.countanimation();
   }
 
    countanimation(){
@@ -34,7 +34,6 @@ export class HomeComponent implements OnInit {
       }
     }, duration);
       });
-
-  }
+   }
 
 }
