@@ -120,28 +120,26 @@
     overflow: hidden;
 }
 .client-content{
-    padding: 5%;
+    padding: 6%;
 }
 .client-content .box-group{
     width: 100%;
-    height: 30vh;
+    height: auto;
+    padding: 2%;
     overflow:hidden;
 }
 .client-content .box{
-    border: 1px solid black;
-    width:15%;
-    margin-left: 1%;
-    margin-top: 4%;
+    border: 1px solid grey;
+    width:19%;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
     overflow: hidden;
     cursor: pointer;
-    animation: wrapper 15s linear infinite; 
 }
-@keyframes wrapper {
-    from{ transform: translateX(90vw);}
-    to{ transform: translateX(-150vw);}
-}
-.client-content .box-group:hover .box{
-    animation-play-state: paused;
+.client-content .box:hover{
+    border: 1px solid white;
+    transform: scale(1.2,1.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .contact-content{
     background: #4d598b;
