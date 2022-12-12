@@ -17,7 +17,7 @@
     overflow:hidden;
 }
 .header-top ul{
-    margin-left:50%;
+    margin-left:60%;
     margin-top:1vh;
 }
 .header-top ul li{
@@ -41,9 +41,10 @@
     width:65%;
     margin-left:7%;
     margin-top:2%;
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     text-align: center;
+    overflow: hidden;
 }
 .navbar ul li{
     display: inline-block;
@@ -54,13 +55,13 @@
     border-bottom:2px solid white;
     background: #4a4a8f;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 16px;
 }
 .navbar .contact-btn{
     border-bottom: 2px solid white;
     background: #4a4a8f;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 16px;
 }
 .menu-btn{
     display: none;
