@@ -52,6 +52,15 @@
 }
 .navbar ul li:hover{
     border-bottom:2px solid white;
+    background: #4a4a8f;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.navbar .contact-btn{
+    border-bottom: 2px solid white;
+    background: #4a4a8f;
+    border-radius: 10px;
+    font-size: 17px;
 }
 .menu-btn{
     display: none;
