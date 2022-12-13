@@ -15,8 +15,9 @@
     margin-top: 1%;
 }
 .footer-main .support-box{
-    width:25%;
+    width:23%;
     margin-left: 2%;
+    text-align: justify;
 }
 .footer-main .heading{
     color: white;

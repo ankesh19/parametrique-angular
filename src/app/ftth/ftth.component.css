@@ -23,6 +23,7 @@
     height:50vh;
     margin-left: 4%;
     padding:1%;
+    text-align: justify;
 }
 .box h1{
     color: #4d598c;
@@ -48,10 +49,12 @@
     height:auto;
     padding: 0%;
     margin-bottom: 1%;
+    text-align: center;
 }
 .small-box-group .icon{
     width:50%;
     height:10vh;
+    margin-left: 25%;
 }
 .medium-box{
    margin-top: 5%;

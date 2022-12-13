@@ -17,6 +17,7 @@
 .about-us-content .box{
     width: 40%;
     margin-left: 5%;
+    text-align: justify;
 }
 .about-us-content .btn button{
     border: 1px solid blue;
@@ -102,6 +103,7 @@
 }
 .solution-content{
     padding:7%;
+    text-align: justify;
 }
 .image-content{
     padding: 1%;

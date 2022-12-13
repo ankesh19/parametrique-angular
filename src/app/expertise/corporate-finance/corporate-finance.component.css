@@ -9,6 +9,7 @@
     height:50vh;
     margin-top: 1%;
     margin-left: 5%;
+    text-align: justify;
 } 
 .box p{
     margin-top: 5%;
@@ -19,6 +20,7 @@
     width: 90%;
     margin-left: 5%;
     padding: 4%;
+    text-align: justify;
 }
 .message p{
     margin-top: 2%;
