@@ -19,8 +19,10 @@
     width:32vh;
     height:20vh;
     margin-top: 4px;
-    overflow: hidden;
     cursor: pointer;
+    transition: 0.2s;
+    overflow: hidden;
+
 }
 .box:hover{
     border: 1px solid white;

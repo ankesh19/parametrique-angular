@@ -127,8 +127,9 @@
     width:19%;
     margin-left: 0.5%;
     margin-top: 0.5%;
-    overflow: hidden;
+    transition: 0.2s;
     cursor: pointer;
+    overflow: hidden;
 }
 .client-content .box:hover{
     border: 1px solid white;

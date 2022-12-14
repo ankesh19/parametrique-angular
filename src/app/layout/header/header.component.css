@@ -50,6 +50,8 @@
     display: inline-block;
     margin-left:1%;
     padding: 1%;
+    transition: 0.1s;
+    overflow: hidden;
 }
 .navbar ul li:hover{
     border-bottom:2px solid white;
