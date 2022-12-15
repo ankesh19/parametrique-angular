@@ -125,9 +125,9 @@
 .client-content .box{
     border: 1px solid grey;
     width:19%;
-    margin-left: 0.5%;
-    margin-top: 0.5%;
-    transition: 0.2s;
+    margin-left: .5%;
+    margin-top: .5%;
+    transition: .2s;
     cursor: pointer;
     overflow: hidden;
 }
