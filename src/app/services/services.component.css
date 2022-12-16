@@ -52,9 +52,17 @@
     
     .box{
         width: 90%;
-        margin-top: 10%;
+        height: auto;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
     }
     .box-group-grey .box{
         width:90%;
+        height: auto;
+        margin-left: 5%;
+    }
+    .box-group-grey h4{
+        text-align: left;
     }
 }

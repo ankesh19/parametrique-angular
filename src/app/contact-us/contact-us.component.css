@@ -80,6 +80,10 @@
     .box{
         width: 90%;
         margin-top: 5%;
+        margin-left: 5%;
         padding: 10%;
     }
+    .form-container{
+        margin-left: 15%;
+    } 
 }

@@ -21,7 +21,7 @@
 }
 .box{
     width:42%;
-    height:50vh;
+    height:auto;
     margin-top: 2%;
     margin-left: 5%;
     text-align: justify;
@@ -54,8 +54,13 @@
     
     .box{
         width: 80%;
-        height: 40vh;
-        margin-top: 10%;
-        margin-left: 5%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    }
+    .box .icon{
+        width:30%;
+        height:30%;
     }
 }

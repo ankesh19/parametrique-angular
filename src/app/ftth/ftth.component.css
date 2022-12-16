@@ -82,12 +82,13 @@
     
     .box{
         width: 100%;
-        margin-top: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         margin-left: 1%;
     }
     .small-box-group .box{
         width:40%;
-        margin-left: 8%;
+        margin-left: 5%;
         margin-top: 5%;
     }
 }

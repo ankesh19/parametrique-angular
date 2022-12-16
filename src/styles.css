@@ -97,7 +97,7 @@ a{
         height: 40vh;
     }
     .banner-container-video{
-        height: 40vh;
+        height: 35vh;
     }
     .banner-video{
         width: 100%;
@@ -106,7 +106,7 @@ a{
         display: none;
     }
     .banner-container .banner-text h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .banner-container .banner-text {
         width:90%;

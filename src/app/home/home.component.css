@@ -40,6 +40,7 @@
     width: 50%;
     margin-left: 0px;
     margin-top: 0px;
+    text-align: left;
 }
 .about-us-content .icon{
     width: 15%;
@@ -156,7 +157,8 @@
         width: 90%;
     }
     .about-us-content .small-box-group{
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 0%;
         margin-top: 10%;
     }
     .experties-content .box-group{
@@ -175,8 +177,9 @@
         margin-left: 2%;
     }
     .contact-content .box{
-        width: 90%;
-        margin-top: 10%;
+        width: 95%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         text-align: center;
     }
 }
