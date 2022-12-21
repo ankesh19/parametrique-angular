@@ -56,7 +56,7 @@
     border-bottom:2px solid white;
     background: #4a4a8f;
     border-radius: 10px;
-    font-size: 16px;
+    transform: scale(1.1,1.1);
 }
 .navbar .active{
     border-bottom: 2px solid white;

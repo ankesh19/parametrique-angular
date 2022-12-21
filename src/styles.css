@@ -65,11 +65,11 @@ a{
 }
 .banner-container-video h1{
     font-size: 30px;
-    animation: zoom 2s alternate 5s infinite;
+    animation: zoom 3s alternate infinite;
 }
 @keyframes zoom {
-    from{ font-size: 25px; }
-    to{ font-size: 30px; } 
+    from{ transform: scale(1.0,1.0); }
+    to{ transform: scale(0.9,0.9); } 
 }
 .banner-container-video p{
     font-size: 20px;
