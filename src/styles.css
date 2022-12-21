@@ -47,7 +47,7 @@ a{
     position: absolute;
     top:50%;
     width:100%;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
     overflow: hidden;
     animation: textslide 3s forwards;

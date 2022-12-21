@@ -53,10 +53,7 @@
     overflow: hidden;
 }
 .navbar ul li:hover{
-    border-bottom:2px solid white;
-    background: #4a4a8f;
-    border-radius: 10px;
-    transform: scale(1.1,1.1);
+    border-bottom: 2px solid white;
 }
 .navbar .active{
     border: 2px solid white;
