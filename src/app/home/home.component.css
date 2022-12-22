@@ -168,6 +168,9 @@
         width:80%;
         margin-left: 5%;
     }
+    .experties-content .image{
+        height: 45%;
+    }
     .image-content .image{
         height:40vh;
     }
