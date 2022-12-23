@@ -93,8 +93,8 @@
         padding: 1%;
     }
     .header-top ul{
-        margin-left:20%;
-        margin-top:1%;
+        margin-left: 0%;
+        text-align: center;
     }
     .logo{
         width: 30%;

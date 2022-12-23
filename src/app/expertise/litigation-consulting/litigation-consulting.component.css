@@ -15,14 +15,14 @@
     margin-top: 5%;
     font-size: 16px;
 }
-.content .message{
+.description{
     background: #eeeeee;
     width: 90%;
     margin-left: 5%;
     padding: 4%;
     text-align: justify;
 }
-.message p{
+.description p{
     margin-top: 2%;
 }
 /*responsive design*/
@@ -33,7 +33,7 @@
         height: auto;
         margin-top: 10%;
     }
-    .message p{
+    .description p{
         margin-top: 10%;
         margin-bottom: 5%;
     }

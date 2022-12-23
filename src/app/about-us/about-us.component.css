@@ -4,11 +4,11 @@
     padding:4%;
     overflow: hidden;
 }
- .content .heading{
+.heading{
     color: #4d598c;
     margin-left:5%;
 }
- .content .message{
+.message{
     color: black;
     width: 90%;
     margin-left:5%;

@@ -4,65 +4,58 @@
     overflow:hidden;
 }
 .box-group{
-    padding:3%;
+    padding: 5%;
 }
 .box{
-    width:42%;
-    height:auto;
-    margin-top: 3%;
-    margin-left: 8%;
-    overflow: hidden;
+    width: 42%;
+    height: auto;
+    margin-left: 6%;
 }
-.box-group-grey{
-    background: #eeeeee;
-    width:90%;
-    margin-left:5%;
-}
-.box-group-grey .box{
-    width:40%;
-    height:25vh;
-    margin-left: 7%;
-    text-align: justify;
-}
-.box .heading{
+.heading{
     color: #4d598c;
     margin-left: 1%;
     margin-bottom: 5%;
     font-size: 16px;
-}
-.cctv-image-box{
-    width:25%;
-    height:30vh;
-}
-.height-large{
-    height: auto;
-    margin-left: 5%;
-}
-.box p{
-    margin-top: 7%;
-    font-size: 15px;
 }
 .box li{
     margin-top: 2%;
     margin-left: 5%;
     font-size: 15px;
 }
+.cctv-image{
+    width:25%;
+    height:35vh;
+}
+.description{
+    background: #eeeeee;
+    width:90%;
+    margin-left:5%;
+}
+.description .box{
+    width: 40%;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 15px;
+    text-align: justify;
+}
+.description p{
+    margin-top: 7%;
+}
 /*responsive design*/
 @media (max-width: 600px) {
     
     .box{
         width: 90%;
-        height: auto;
         margin-top: 5%;
         margin-left: 5%;
         margin-bottom: 5%;
     }
-    .box-group-grey .box{
+    .description .box{
         width:90%;
-        height: auto;
         margin-left: 5%;
-    }
-    .box-group-grey h4{
-        text-align: left;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
 }

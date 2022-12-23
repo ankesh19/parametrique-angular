@@ -88,7 +88,12 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.flex-left{
+    order: 1;
+}
+.flex-right{
+    order: 2;
+}
 /*responsive design */
 @media (max-width: 1000px) {
 
@@ -97,6 +102,12 @@ a{
     }
     .banner-container-video{
         height: 60vh;
+    }
+    .flex-left{
+        order: 0;
+    }
+    .flex-right{
+        order: 0;
     }
 }
 @media (max-width: 600px) {
