@@ -8,12 +8,11 @@
 }
 
 /*responsive design*/
-@media (max-width: 600px) {
-
+@media (max-width: 1000px) {
     .menu{
-       margin-top: 25%;
-    }
-    .menu li{
-        margin-top: 10%;
-    }
+        margin-top: 25%;
+     }
+     .menu li{
+         margin-top: 10%;
+     } 
 }

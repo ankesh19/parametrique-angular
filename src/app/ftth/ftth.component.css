@@ -3,90 +3,70 @@
     height:auto;
     overflow:hidden;
 }
-.content-blue{
-    background: #4d598c;
-}
-.content-grey{
-    background: #eeeeee;
-}
-.content .heading{
-    color: #4d598c;
-    margin-left: 4%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
 .box-group{
     padding:4%;
 }
 .box{
-    width:42%;
+    width:40%;
     height:auto;
-    margin-left: 4%;
-    padding:1%;
+    margin-left: 6%;
     text-align: justify;
 }
 .box h1{
     color: #4d598c;
     margin-bottom: 5%;
 }
-.box h5{
+.heading{
+    color: #4d598c;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.gpon-image{
+    height: 25vh;
+    margin-top: 6%;
+}
+.blue-color{
+    background: #4d598c;
+}
+.blue-color h2{
+    color: white;
     margin-top: 15%;
 }
-.box p{
-    margin-top: 7%;
-    font-size: 16px;
+.blue-color p{
+    color: white;
+    margin-top: 5%;
 }
-.box-grey{
+.grey-color{
     background: #eeeeee;
 }
-.large-box-group .box{
+.full-width .box{
     width:90%;
-    height: auto;
     padding: 5%;
 }
-.small-box-group .box{
+.small-box .box{
     width:12%;
-    height:auto;
-    padding: 0%;
+    margin-left: 4%;
     margin-bottom: 1%;
     text-align: center;
 }
-.small-box-group .icon{
+.icon{
     width:50%;
     height:10vh;
     margin-left: 25%;
-}
-.medium-box{
-   margin-top: 5%;
-   padding: 0px;
-   height: auto;
-}
-.medium-box h2,.medium-box p{
-    color: white;
-}
-.small-image-box{
-    height:15%;
-}
-.position-center-box{
-    margin-top:6%;
-}
-.medium-height{
-    height: 60vh;
-}
-.height-auto{
-    height: auto;
+    margin-bottom: 15%;
 }
 
 /*responsive design*/
 @media (max-width: 600px) {
     
     .box{
-        width: 100%;
+        width: 90%;
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 1%;
+        margin-left: 5%;
     }
-    .small-box-group .box{
+    .small-box .box{
         width:40%;
         margin-left: 5%;
         margin-top: 5%;

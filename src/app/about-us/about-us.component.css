@@ -1,39 +1,27 @@
 .content{
     width:100%;
     height:auto;
-    padding:4%;
+    padding: 4%;
     overflow: hidden;
 }
-.heading{
-    color: #4d598c;
-    margin-left:5%;
-}
-.message{
-    color: black;
-    width: 90%;
-    margin-left:5%;
+.box{
+    width:40%;
+    height:50vh;
     margin-top: 5%;
-    font-size: 16px;
+    margin-left: 6%;
     text-align: justify;
 }
-.content-grey{
+.grey-color{
     background: #a5a1a1;
 }
-.box{
-    width:42%;
+.grey-color .box{
     height:auto;
-    margin-top: 2%;
-    margin-left: 5%;
-    text-align: justify;
-}
-.content-grey .box{
-    height:auto;
+    margin-top: 0%;
     padding: 1%;
 }
 .box h1{
     color: #4d598c;
     margin-top:1%;
-    font-size: 30px;
 }
 .box h2{
     color: #4d598c;
@@ -48,8 +36,27 @@
     width:15%;
     height:20%;
 }
+.heading{
+    color: #4d598c;
+    margin-left:5%;
+}
+.description{
+    color: black;
+    width: 90%;
+    margin-left:5%;
+    margin-top: 3%;
+    font-size: 16px;
+    text-align: justify;
+}
 
 /*responsive design*/
+@media (max-width: 1000px) {
+    .box{
+        height: auto;
+        margin-bottom: 5%;
+    }
+}
+
 @media (max-width: 600px) {
     
     .box{
