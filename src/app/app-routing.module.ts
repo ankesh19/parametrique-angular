@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ErrorComponent } from './error/error.component';
 import { CorporateFinanceComponent } from './expertise/corporate-finance/corporate-finance.component';
 import { CorporateRestructuringComponent } from './expertise/corporate-restructuring/corporate-restructuring.component';
 import { EconomicConsultingComponent } from './expertise/economic-consulting/economic-consulting.component';
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'services', component: ServicesComponent},
   {path: 'gallery', component: GalleryComponent},
   {path: 'contact-us', component: ContactUsComponent},
+  {path: '**', component: ErrorComponent},
 ];
 
 @NgModule({

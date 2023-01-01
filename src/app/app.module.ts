@@ -17,6 +17,7 @@ import { StrategicConsultingComponent } from './expertise/strategic-consulting/s
 import { CorporateFinanceComponent } from './expertise/corporate-finance/corporate-finance.component';
 import { EconomicConsultingComponent } from './expertise/economic-consulting/economic-consulting.component';
 import { MenuComponent } from './layout/menu/menu.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { MenuComponent } from './layout/menu/menu.component';
     CorporateFinanceComponent,
     EconomicConsultingComponent,
     MenuComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
