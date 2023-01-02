@@ -46,22 +46,22 @@
 
         <div class="content"> 
             <div class="form-container">
-                <form action="#" method="post">
+                <form #contactform action="#" method="post" (submit)="contact(contactform);">
                     <div>
                        <p>Your Name:</p>
-                       <input type="text" name="name">
+                       <input type="text" name="name" required>
                     </div>  
                     <div>
                         <p>Email:</p>
-                        <input type="email" name="email" requried>
+                        <input type="email" name="email" required>
                      </div>  
                      <div>
                         <p>Subject:</p>
-                        <input type="text" name="subject">
+                        <input type="text" name="subject" required>
                      </div> 
                      <div>
                         <p>Your Message:</p>
-                        <textarea name="message" rows="10"></textarea>
+                        <textarea name="message" rows="10" required></textarea>
                      </div>  
                      <div>
                         <input type="submit" value="send">

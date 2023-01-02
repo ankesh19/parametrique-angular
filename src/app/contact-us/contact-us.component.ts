@@ -9,7 +9,11 @@ export class ContactUsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
+  contact(contactform:any){
+    
+     alert("Form Submit Failed");
+     return false;
+  }
 }

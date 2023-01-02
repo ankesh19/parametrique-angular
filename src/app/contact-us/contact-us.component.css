@@ -40,22 +40,26 @@
 .form-container input{
     width: 50%;
     height: 5vh;
+    font-size: 16px;
+    outline: none;
 }
 .form-container textarea{
     width: 50%;
+    font-size: 16px;
+    outline: none;
 }
 .form-container input[type=submit] {
     border: none;
     background: #32438d;
-    height: 6vh;
+    height: 7vh;
     color: white;
     font-size: 20px;
 }
 .google-map-container{
-    height:70vh;
+    height:75vh;
     padding:1%;
     margin-top:3%;
-    margin-bottom:2%;
+    margin-bottom:1%;
 }
 
 /*responsive design*/
